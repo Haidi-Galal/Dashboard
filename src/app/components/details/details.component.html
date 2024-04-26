@@ -1,0 +1,22 @@
+
+<section class="min-vh-100 ">
+    <div class="container   ">
+    
+      <div class="row ">
+        <div class="col-lg-6 col-md-12 bg-light text-center my-3 m-auto  text-success user-card p-4 rounded-4    ">
+            <img [src]="user.avatar" [alt]="user.first_name">
+            <p class="mt-3 ">ID:{{user.id}}</p>
+            <p>Email:{{user.email}}</p>
+            <p>Fname:{{user.first_name}}</p>
+            <p>Lname:{{user.last_name}}</p>
+            <div class="float-end  ">
+            <button (click)="goHome()" class="btn btn-main    px-3 ">back</button>
+            </div>
+            <div class="clearfix "></div>
+        </div>
+
+      </div>
+    
+    
+    </div>
+</section>

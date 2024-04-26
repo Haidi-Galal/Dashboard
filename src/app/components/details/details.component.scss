@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-card {
+    transition: all 0.5s;
+  
+    img{
+        object-fit: fill;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    }
+    &:hover{
+        box-shadow: 11px 9px 7px -3px rgba(129,237,48,0.75);
+-webkit-box-shadow: 11px 9px 7px -3px rgba(129,237,48,0.75);
+-moz-box-shadow: 11px 9px 7px -3px rgba(129,237,48,0.75);
+    }
+  
+    border: 1px solid greenyellow;
+    
+}
+.btn-main{
+color: white;
+background-color: greenyellow;
+}
